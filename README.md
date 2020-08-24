@@ -1,4 +1,4 @@
-# Project name
+# Git Automate
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
 ![GitHub repo size](https://img.shields.io/github/repo-size/sumanrajsharma/automate_git_projects)
@@ -7,9 +7,16 @@
 ![GitHub forks](https://img.shields.io/github/forks/sumanrajsharma/automate_git_projects?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/sumanrajsharma?style=social)
 
-Project name is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
+Git Automate is a `<script>` that allows `<developer>` to do `<automate>` certain git processes. 
 
-Additional line of the information text about what the project does. Your introduction should be around 2 or 3 sentences. Don't go overboard, people won't read it.
+When a new project is created using command `<create project_name>` it does couple of things
+* Creates a directory for a project and navigates to that directory
+* Creates a README.md file similar to this
+* Creates a remote repository in github with same project name
+* Initailises git in the project directory
+* Creates new connection to remote repository <git remote add origin>
+* Performs git add, git commit and push to master
+
 
 ## Prerequisites
 
