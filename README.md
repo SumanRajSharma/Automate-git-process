@@ -7,11 +7,11 @@
 ![GitHub forks](https://img.shields.io/github/forks/sumanrajsharma/automate_git_projects?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/sumanrajsharma?style=social)
 
-Git Automate is a `<script>` that allows `<developer>` to do `<automate>` certain git processes. 
+Git Automate is a bash`<script>` that allows `<developer>` to do `<automate>` certain git processes. 
 
 When a new project is created using command `<create project_name>` it does couple of things
 * Creates a directory for a project and navigates to that directory
-* Creates a README.md file similar to this
+* Creates a README.md file similar to this (For this add the provided `SAMPLE_README.md` file to your FILEPATH)
 * Creates a remote repository in github with same project name
 * Initailises git in the project directory
 * Creates new connection to remote repository <git remote add origin>
@@ -22,32 +22,32 @@ When a new project is created using command `<create project_name>` it does coup
 
 Before you begin, ensure you have met the following requirements:
 <!--- These are just example requirements. Add, duplicate or remove as required --->
-* You have installed the latest version of `<coding_language/dependency/requirement_1>`
-* You have a `<Windows/Linux/Mac>` machine. State which OS is supported/which is not.
-* You have read `<guide/link/documentation_related_to_project>`.
+* Define your Git `USERNAME` and `PASSWORD` in .env file of your system
+* Also, generate a `GITOAUTHTOKEN` ([Click here for OAuth tokens](https://docs.github.com/en/free-pro-team@latest/github/extending-github/git-automation-with-oauth-tokens#step-1-get-an-oauth-token)): define git O Auth token of .env file in your system
 
 ## Installing <project_name>
 
-To install <project_name>, follow these steps:
+To execute the script, follow these steps:
 
-Linux and macOS:
 ```
-<install_command>
+Add execute attribute to the script
+> chmod +x automate_git.sh
+> ./automate_git.sh <Name of repository> <Bool: Private repo?> (True for private; False for public)
+Eg: > ./automate_git.sh test true
 ```
 
-Windows:
-```
-<install_command>
-```
 ## Using <project_name>
 
-To use <project_name>, follow these steps:
+To use script, have a look at these:
 
 ```
-<usage_example>
+# var 1 ($1): Name of the repo
+# Var 2 ($2): private or public repo
+# USERNAME: define git username in .env file of your system
+# PASSWORD: define git password in .env file of your system
+# GITOAUTHTOKEN: define git O Auth token of .env file in your system
+# FILEPATH: Path to your project directory
 ```
-
-Add run commands and examples you think users will find useful. Provide an options reference for bonus points!
 
 ## Contributing to <project_name>
 <!--- If your README is long or you have some specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
