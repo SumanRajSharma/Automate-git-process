@@ -7,7 +7,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/sumanrajsharma/automate_git_projects?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/sumanrajsharma?style=social)
 
-Git Automate is a bash`<script>` that allows `<developer>` to do `<automate>` certain git processes. 
+Git Automate is a `bash script` that allows `developer` to do `automate ` certain git processes. 
 
 When a new project is created using command `<create project_name>` it does couple of things
 * Creates a directory for a project and navigates to that directory
@@ -32,9 +32,9 @@ To execute the script, follow these steps:
 ```
 # Add execute attribute to the script
 > chmod +x automate_git.sh
-> ./automate_git.sh <Name of repository> <Bool: Private repo?> (True for private; False for public)
+> create <Name of repository> <Bool: Private repo?> (True for private; False for public)
 # Example
-> ./automate_git.sh test true
+> create test_repo true
 ```
 
 Also, have a look at these variables used in the script:
