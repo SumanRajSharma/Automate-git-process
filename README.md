@@ -25,7 +25,7 @@ Before you begin, ensure you have met the following requirements:
 * Define your Git `USERNAME` and `PASSWORD` in .env file of your system
 * Also, generate a `GITOAUTHTOKEN` ([Click here for OAuth tokens](https://docs.github.com/en/free-pro-team@latest/github/extending-github/git-automation-with-oauth-tokens#step-1-get-an-oauth-token)) and define gitOAuth token of .env file in your system
 
-## Installing <project_name>
+## Using the script
 
 To execute the script, follow these steps:
 
@@ -37,9 +37,7 @@ To execute the script, follow these steps:
 > ./automate_git.sh test true
 ```
 
-## Using <project_name>
-
-To use script, have a look at these:
+Also, have a look at these variables used in the script:
 
 ```
 # var 1 ($1): Name of the repo
