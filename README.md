@@ -30,10 +30,11 @@ Before you begin, ensure you have met the following requirements:
 To execute the script, follow these steps:
 
 ```
-Add execute attribute to the script
+# Add execute attribute to the script
 > chmod +x automate_git.sh
 > ./automate_git.sh <Name of repository> <Bool: Private repo?> (True for private; False for public)
-Eg: > ./automate_git.sh test true
+# Example
+> ./automate_git.sh test true
 ```
 
 ## Using <project_name>
