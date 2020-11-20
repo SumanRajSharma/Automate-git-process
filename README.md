@@ -23,7 +23,7 @@ When a new project is created using command `<create project_name>` it does coup
 Before you begin, ensure you have met the following requirements:
 <!--- These are just example requirements. Add, duplicate or remove as required --->
 * Define your Git `USERNAME` and `PASSWORD` in .env file of your system
-* Also, generate a `GITOAUTHTOKEN` ([Click here for OAuth tokens](https://docs.github.com/en/free-pro-team@latest/github/extending-github/git-automation-with-oauth-tokens#step-1-get-an-oauth-token)): define git O Auth token of .env file in your system
+* Also, generate a `GITOAUTHTOKEN` ([Click here for OAuth tokens](https://docs.github.com/en/free-pro-team@latest/github/extending-github/git-automation-with-oauth-tokens#step-1-get-an-oauth-token)) and define gitOAuth token of .env file in your system
 
 ## Installing <project_name>
 
